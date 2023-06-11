@@ -1,53 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<!-- 
-TODO: Change the background color for each device
-[lightsalmon] Mobile Devices: 319px — 480px
-[powderblue] iPads and Tablets: 481px — 1200px
-[limegreen] Laptops: 1201px — 1600px
-[seagreen] Desktops: 1601px and more
--->
-
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
-  <title>Media Query</title>
-  <style>
-
-    body {
-      background-color: aquamarine;
-    }
-
-    @media (min-width: 319px) and (max-width: 480px){
-      body {
-        background-color: lightsalmon;
-      }
-    }
-
-    @media (min-width: 481px) and (max-width: 1200px) {
-      body {
-        background-color: powderblue;
-      }
-    }
-
-    @media (min-width: 1201px) and (max-width: 1500px) {
-      body {
-        background-color: limegreen;
-      }
-    }
-
-    @media (min-width: 1501px) {
-      body {
-        background-color: seagreen;
-      }
-    }
-
-  </style>
-</head>
-
-<body>
-  <h1>hola</h1>
-</body>
-
+    <head>
+        <meta charset="UTF-8">
+        <meta title="Artisan Jewelry">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="div_logo">
+            <img class="logo" src="./assets/images/andes_artisan_logo_1.png" alt="andes_artisan_logo">
+        </div>
+        <div class="div_title">
+            <h1 class="title">One of a kind jewelry</h1>
+        </div>
+        <div class="div_img div_img_1">
+            <img class="img img_1" src="./assets/images/fili_1.jpg" alt="fili_1">
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate qui hic recusandae nam nesciunt reiciendis nobis eligendi beatae magnam? Laudantium iusto natus quidem molestiae? Eaque, eveniet. Error deserunt facilis nobis?</p>
+        </div>
+        <div class="div_img div_img_2">
+            <img class="img img_2" src="./assets/images/fili_2.jpg" alt="fili_2">
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nesciunt mollitia similique facilis, placeat eos possimus veniam, expedita error laudantium, officia recusandae corporis dolores voluptatem! Consequuntur dolores laboriosam eum perferendis soluta.</p>
+        </div>
+        <footer>
+            <h2>All rights reserved</h2>
+        </footer>
+    </body>
 </html>
